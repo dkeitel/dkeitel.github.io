@@ -27,7 +27,7 @@ Then you can simply reference the image in a wiki page with the following syntax
 So for this example you could add a link to your `Home` wiki.
 
 ```bash
-echo \!\[yourtitle\]\(image.png\) >> Home.md  
+echo \!\[yourtitle\]\(images/image.png\) >> Home.md
 ```
 
 Once that is done you can git add, commit and push to your wiki to see the image in its full glory.
