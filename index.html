@@ -1,33 +1,13 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
-<html> 
-<head> 
-    <!-- Last updated: July, 30 2012 -->
-    <title>David Keitel</title> 
-    <link REL="SHORTCUT ICON" HREF="favicon.ico">
-	<style> 
-        body {
-	        background: #ffffff;
-	        text-align: center;
-			font-size: 49px;
-			color: #333333;
-        }
-        #content {
-			width: 284px;
-			height: 300px;
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			margin-left: -142px;
-			text-align: center;
-			margin-top: -150px;			
-        }
-    </style> 
-</head> 
-<body>
+---
+layout: default
+title: {{ site.name }}
+---
 
-
-	<div id="content"> 
-		<img src="dk.png" title="David Keitel" alt="David Keitel" />
-	</div>
-</body> 
-</html> 
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
