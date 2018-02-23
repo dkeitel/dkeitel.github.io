@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: Adding images to GitHub wikis
-date:   2018-02-22 17:50:00
+date: 2018-02-22 17:50:00
 categories: main
 ---
 
