@@ -19,7 +19,7 @@ create an images folder and copy your image into it.
 
 For this example we will use the Linux Tux:
 
-<img src="/img/Tux.png" width="100">
+<img title="lewing@isc.tamu.edu Larry Ewing and The GIMP [Attribution], via Wikimedia Commons" width="256" src="/img/Tux.png"/>
 
 
 ```bash
