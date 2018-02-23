@@ -24,7 +24,7 @@ For this example we will use the Linux Tux:
 
 ```bash
 mkdir images
-cp ~/Tux.png images
+cp ~/Tux.png images/
 ```
 
 Then you can simply reference the image in a wiki page with the following syntax: `![yourtitle](Tux.png)`
